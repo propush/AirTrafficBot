@@ -1,0 +1,16 @@
+notification:
+  api-key: N/A
+  traffic-polling-interval-ms: 60000
+persistence:
+  file-name: /tmp/rb_test.dat
+logging:
+  level:
+    com.skolopendra: debug
+
+traffic:
+  altitude-threshold: 5000
+  bounding-box:
+    min-lat: 55.6254
+    max-lat: 55.8090
+    min-lon: 37.7341
+    max-lon: 38.0852

@@ -1,0 +1,19 @@
+notification:
+  api-key: ${TLG_API_KEY}
+  traffic-polling-interval-ms: ${TRAFFIC_POLLING_INTERVAL_MS:60000}
+persistence:
+  file-name: ${PERSISTENCE_FILE_NAME:/tmp/rb.dat}
+logging:
+  level:
+    com.skolopendra: debug
+
+traffic:
+  altitude-threshold: ${TRAFFIC_ALTITUDE_THRESHOLD:11000}
+  central-point:
+    lat: 55.7218886
+    lon: 37.9177701
+  bounding-box:
+    min-lat: 55.6254
+    max-lat: 55.8090
+    min-lon: 37.7341
+    max-lon: 38.0852
