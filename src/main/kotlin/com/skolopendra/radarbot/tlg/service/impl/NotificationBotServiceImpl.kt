@@ -102,6 +102,6 @@ class NotificationBotServiceImpl(
         traffic.crafts.joinToString(separator = "\n", transform = ::printCraft)
 
     private fun printCraft(craft: Craft): String =
-        with(craft) { "$callSign, alt=$altitude, distance=$distance, spd=$speed, coords=$lat,$lon, hdg=$heading" }
+        with(craft) { "$callSign, alt=$altitude m, distance=$distance km, spd=$speed km/h, coords=$lat,$lon, hdg=$heading" }
 
 }

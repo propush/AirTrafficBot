@@ -28,7 +28,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.0.4")
-    implementation("com.github.openskynetwork:opensky-api:master")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")

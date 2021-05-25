@@ -13,7 +13,7 @@ traffic:
     lat: 55.7218886
     lon: 37.9177701
   bounding-box:
-    min-lat: 55.6254
-    max-lat: 55.8090
-    min-lon: 37.7341
-    max-lon: 38.0852
+    min-lat: 55.611701
+    max-lat: 55.827094
+    min-lon: 37.732009
+    max-lon: 38.131867
