@@ -48,7 +48,7 @@ class OpenSkyTrafficServiceImpl(
             rawStateVector
                 .states
                 ?.map(::stateVectorToCraft)
-                ?.filterNot(::craftFilter)
+                ?.filter(::craftFilter)
                 ?.toSet()
                 ?: emptySet()
         ).also {
