@@ -17,3 +17,7 @@ traffic:
     max-lat: 55.827094
     min-lon: 37.732009
     max-lon: 38.131867
+
+connection:
+  connect-timeout-seconds: ${CONNECT_TIMEOUT_SECONDS:30}
+  read-timeout-seconds: ${READ_TIMEOUT_SECONDS:30}
